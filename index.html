@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muzica Pentru Toți - Festival</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">MUZICĂ PENTRU TOȚI</div>
+        <ul class="nav-links">
+            <li><a href="#acasa">Acasă</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#lineup">Artiști</a></li>
+            <li><a href="#bilete">Bilete</a></li>
+        </ul>
+    </nav>
+
+    <header id="acasa" class="hero">
+        <div class="hero-content">
+            <h1>SIMTE RITMUL</h1>
+            <p>Cel mai așteptat Festival al anului este aici.</p>
+            
+            <div class="event-dates">
+                <div class="date-box">
+                    <span>15</span>
+                    <small>AUGUST</small>
+                </div>
+                <div class="date-box">
+                    <span>16</span>
+                    <small>AUGUST</small>
+                </div>
+                <div class="date-box">
+                    <span>17</span>
+                    <small>AUGUST</small>
+                </div>
+            </div>
+
+            <a href="#bilete" class="cta-button">Cumpară Bilete</a>
+        </div>
+    </header>
+
+    <section id="program" class="container">
+        <h2 class="section-title">PROGRAMUL FESTIVALULUI</h2>
+        <div class="schedule-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ora</th>
+                        <th>Scena Principală</th>
+                        <th>Scena Secundară</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>18:00</td>
+                        <td>Deschidere</td>
+                        <td>DJ Periculos</td>
+                    </tr>
+                    <tr>
+                        <td>20:00</td>
+                        <td>Domnul Domn</td>
+                        <td>Bass</td>
+                    </tr>
+                    <tr>
+                        <td>22:00</td>
+                        <td><strong>Roackerul</strong></td>
+                        <td><strong>DJ Periculos</strong></td>
+                    </tr>
+                    <tr>
+                        <td>00:00</td>
+                        <td>Maimuța Vorbareața</td>
+                        <td>Afterparty</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="lineup" class="container">
+        <h2 class="section-title">Line up Festival</h2>
+        <div class="artists-grid">
+            <div class="artist-card">
+                <img src="images/artist-band1.jpg" alt="Rock Band">
+                <h3>Roackerul</h3>
+                <p>Rock Tare</p>
+            </div>
+            <div class="artist-card">
+                <img src="images/artist-dj.jpg" alt="DJ">
+                <h3>DJ Periculos</h3>
+                <p>Electronica</p>
+            </div>
+            <div class="artist-card">
+                <img src="images/artist-singer.jpg" alt="Singer">
+                <h3>Domnul Domn</h3>
+                <p>Jazz</p>
+            </div>
+            <div class="artist-card">
+                <img src="images/artist-monkey.jpg" alt="Monkey Guitarist">
+                <h3>Maimuța Vorbareața</h3>
+                <p>Invitat Surpriză</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="atmosfera" class="vibe-section">
+        <div class="vibe-container">
+            <div class="vibe-text">
+                <h2>O EXPERIENTA DE NEUITAT</h2>
+                <p>„Muzică Pentru Toți” nu este doar un concert, este destinația ta pentru 3 zile de amintiri intense. De la ritmurile dure ale Rock-ului, la finețea Jazz-ului și energia Electronicii, aducem pe aceeași scenă artiști precum Roackerul, DJ Periculos și Domnul Domn. Pregătește-te pentru o experiență de neuitat și un invitat surpriză care va electriza atmosfera!</p>
+                <img src="images/event.jpg" class="date-icon" alt="Calendar">
+                <h3>3 ZILE MULTE AMINTIRI</h3>
+            </div>
+            <div class="vibe-images">
+                <img src="images/abstract-music-rock-bw.jpg" alt="Instrumente">
+                <img src="images/audience.jpg" alt="Public">
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <h2>Fii primul care afla noutățile!</h2>
+        <form class="news-form" id="newsletterForm">
+            <input type="email" id="emailInput" placeholder="Adresa ta de email..." required>
+            <button type="submit">Abonează-te</button>
+        </form>
+    </section>
+
+    <section id="bilete" class="tickets-section">
+        <div class="overlay"></div>
+        <div class="ticket-content">
+            <h2>REZERVA-ȚI LOCUL</h2>
+            <p>Biletele se epuizează rapid. Nu rata sansa sa fii parte din istorie.</p>
+            <button class="ticket-btn" id="btnVip">Vreau Bilet VIP</button>
+            <button class="ticket-btn outline" id="btnStandard">Bilet Standard</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Urmărește-ne pe rețele de socializare</h3>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                
+                <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                
+                <a href="https://www.tiktok.com" target="_blank" title="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                
+                <a href="https://www.youtube.com" target="_blank" title="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Muzică Pentru Toți. Toate drepturile rezervate.</p>
+        </div>
+    </footer>
+
+    <script>
+        
+        const btnVip = document.getElementById('btnVip');
+        const btnStandard = document.getElementById('btnStandard');
+
+        
+        function rezervaBilet(tipBilet) {
+            let nume = prompt("Salut! Introdu numele tău pentru a rezerva un " + tipBilet + ":");
+            
+            if (nume && nume.trim() !== "") {
+                alert("Super, " + nume + "! Ai rezervat cu succes un " + tipBilet + ". Te așteptăm la intrare!");
+            } else {
+                alert("Rezervare anulată. Te rugăm să introduci un nume valid.");
+            }
+        }
+
+        
+        if(btnVip) {
+            btnVip.addEventListener('click', function() {
+                rezervaBilet('Bilet VIP - Zona Exclusivă');
+            });
+        }
+
+        if(btnStandard) {
+            btnStandard.addEventListener('click', function() {
+                rezervaBilet('Bilet Standard');
+            });
+        }
+
+        
+        
+        const formNewsletter = document.getElementById('newsletterForm');
+        const inputEmail = document.getElementById('emailInput');
+
+        if(formNewsletter) {
+            formNewsletter.addEventListener('submit', function(event) {
+                
+                event.preventDefault(); 
+                
+                
+                let email = inputEmail.value;
+
+                
+                alert("Mulțumim! Te-ai abonat cu succes folosind adresa: " + email);
+
+                
+                inputEmail.value = "";
+            });
+        }
+    </script>
+
+</body>
+</html>
